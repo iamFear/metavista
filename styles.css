@@ -1,0 +1,82 @@
+/* Project Guidelines:
+    background color: #1d4ed8
+    upbar text color:  #fafafa;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* REM unit == 10px */
+  font-size: 62.5%;
+  color: #fafafa;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Landing Page */
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  /* position: fixed; */
+  background-color: #1d4ed8;
+  /* background-image: url(/media/logo-temp.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.landing-information {
+  position: fixed;
+  background-color: #dc2626;
+  width: 100vw;
+  height: 5vh;
+  padding: 0 2rem 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information-contact {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.information-link:link,
+.information-link:visited {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.information-mail-icon {
+  font-size: 2.4rem;
+}
+
+.contact-text {
+  font-size: 1.4rem;
+}
+
+.line {
+  font-weight: 700;
+}
+
+.information-phone-icon {
+  font-size: 1.8rem;
+}
+
+.social-media {
+  color: #fafafa;
+}
+
+.instagram-logo {
+  font-size: 2.2rem;
+}
