@@ -88,7 +88,7 @@ html {
 .landing-navbar {
   width: 100vw;
   height: 10vh;
-  background-color: #1e40af;
+  background-color: #1e40afa4;
 
   display: flex;
   align-items: center;
@@ -119,6 +119,7 @@ html {
 .nav-link:hover,
 .nav-link:active {
   font-weight: 500;
+  text-decoration: none;
   text-decoration: underline;
 }
 
@@ -136,4 +137,72 @@ html {
 
   font-size: 2rem;
   list-style: none;
+}
+
+.landing-body {
+  height: 80vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-left {
+  width: 55vw;
+  padding-left: 10vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.2rem;
+}
+
+.body-title {
+  font-size: 4.2rem;
+}
+
+.title-light {
+  font-weight: 300;
+}
+
+.body-text {
+  font-size: 1.8rem;
+  letter-spacing: 1.2px;
+  color: #e5e5e5;
+}
+
+.body-buttons {
+  margin-top: 1.4rem;
+  /* width: 40vw; */
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.body-btn:link,
+.body-btn:visited {
+  display: inline-block;
+  color: #fafafa;
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #dc2626;
+  padding: 1rem 1.6rem;
+  /* box-sizing: border-box; */
+
+  border-radius: 7px;
+  transition: 0.5s all;
+}
+
+.body-btn:hover {
+  color: #dc2626;
+  background-color: #fafafa;
+  box-shadow: inset 0 0 0 2.5px #dc2626;
+
+  transition: 0.1s all;
+}
+
+.body-btn:active {
+  color: #fafafa;
+  background-color: #dc2626;
 }
