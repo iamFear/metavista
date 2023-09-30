@@ -25,7 +25,7 @@ html {
   width: 100vw;
   margin-top: 5vh;
   /* position: fixed; */
-  background-color: #1d4ed8;
+  background-color: #f8fafc;
   /* background-image: url(/media/logo-temp.jpeg);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -88,7 +88,7 @@ html {
 .landing-navbar {
   width: 100vw;
   height: 10vh;
-  background-color: #1e40afa4;
+  background-color: #1e40af;
 
   display: flex;
   align-items: center;
@@ -159,6 +159,7 @@ html {
 
 .body-title {
   font-size: 4.2rem;
+  color: #09090b;
 }
 
 .title-light {
@@ -168,7 +169,7 @@ html {
 .body-text {
   font-size: 1.8rem;
   letter-spacing: 1.2px;
-  color: #e5e5e5;
+  color: #18181b;
 }
 
 .body-buttons {
@@ -205,4 +206,34 @@ html {
 .body-btn:active {
   color: #fafafa;
   background-color: #dc2626;
+}
+
+.body-right {
+  width: 60%;
+  color: #09090b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -5rem;
+}
+
+.logo-body {
+  width: 30%;
+  height: 30%;
+}
+
+.logo-text-big {
+  font-size: 4.2rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.logo-text-small {
+  font-size: 2rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
