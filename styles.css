@@ -1,9 +1,15 @@
 /* Project Guidelines:
-    background color: #1d4ed8
+    background color: #1e40af;
     upbar text color:  #fafafa;
     redColor = #dc2626
 
 */
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 * {
   margin: 0;
@@ -236,4 +242,104 @@ html {
   letter-spacing: 7px;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+/* PRODUCTS AND SERVICES */
+.products {
+  width: 100vw;
+  height: 95vh;
+  background-color: #1e40af;
+}
+
+/* WHO WE ARE ? */
+.company {
+  width: 100vw;
+  height: 95vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-info {
+  margin-left: 5vw;
+  width: 40vw;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.6rem;
+}
+
+.company-info-text {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.company-members {
+  width: 50vw;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.members-card {
+  background-color: #1e40af;
+  width: 35vw;
+  height: 25vh;
+  border-radius: 15px;
+}
+
+.card-image {
+  width: 35%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card-info {
+  padding-left: 2rem;
+  width: 65%;
+  flex-direction: column;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: #fafafa;
+}
+
+.phone {
+  margin-top: 2rem;
+  gap: 0.6rem;
+}
+
+.card-icon {
+  font-size: 1.4rem;
+}
+
+.card-contact {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.link-format {
+  display: inline-block;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.mail {
+  gap: 0.6rem;
+}
+
+.location {
+  gap: 0.6rem;
 }
