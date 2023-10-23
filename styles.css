@@ -22,6 +22,7 @@ html {
   font-size: 62.5%;
   color: #fafafa;
   font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Landing Page */
@@ -31,7 +32,7 @@ html {
   width: 100vw;
   margin-top: 5vh;
   /* position: fixed; */
-  background-color: #f8fafc;
+  background-color: #fafafa;
   /* background-image: url(/media/logo-temp.jpeg);
   background-repeat: no-repeat;
   background-size: cover; */
@@ -175,6 +176,7 @@ html {
 .body-text {
   font-size: 1.8rem;
   letter-spacing: 1.2px;
+  line-height: 25px;
   color: #18181b;
 }
 
@@ -247,14 +249,15 @@ html {
 /* PRODUCTS AND SERVICES */
 .products {
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   background-color: #1e40af;
 }
 
 /* WHO WE ARE ? */
 .company {
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
+  background-color: #fafafa;
 
   display: flex;
   align-items: center;
@@ -266,12 +269,16 @@ html {
   width: 40vw;
   flex-direction: column;
   align-items: start;
-  gap: 2.6rem;
+  gap: 1.4rem;
+  /* margin-top: -1.2rem; */
 }
 
 .company-info-text {
-  font-size: 2rem;
+  /* margin-top: -1.6rem; */
+  font-size: 1.9rem;
   line-height: 2.8rem;
+  text-align: justify;
+  /* text-justify: auto; */
 }
 
 .company-members {
@@ -285,6 +292,12 @@ html {
   width: 35vw;
   height: 25vh;
   border-radius: 15px;
+
+  transition: all 0.5s;
+}
+
+.members-card:hover {
+  transform: translate(0.8rem, 0);
 }
 
 .card-image {
@@ -342,4 +355,62 @@ html {
 
 .location {
   gap: 0.6rem;
+}
+
+.products {
+  gap: 5.2rem;
+  flex-direction: column;
+}
+
+.products-title {
+  font-size: 5.2rem;
+  color: #fafafa;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+}
+
+.product-card {
+  background-color: #dbeafe;
+  width: 32rem;
+  height: 18rem;
+  border-radius: 15px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.35);
+
+  transition: all 0.5s;
+}
+
+.product-card:hover {
+  transform: translate(0, -1rem);
+  background-color: #fafafa;
+}
+
+/* Our services */
+
+.services {
+  height: 105vh;
+  width: 100vw;
+  background-color: #1e40af;
+
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.services-title {
+  color: #fafafa;
+}
+
+.services-text {
+  text-justify: auto;
+  color: hsla(0, 0%, 98%, 0.8);
+  width: 90vw;
+  line-height: 2.9rem;
+}
+
+.bold {
+  font-weight: 700;
+  color: #fafafa;
 }
