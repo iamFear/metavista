@@ -44,10 +44,6 @@
   .body-text {
     line-height: 2.5rem;
   }
-
-  .members-card {
-    height: 15rem;
-  }
 }
 
 @media (max-width: 690px) {
@@ -68,65 +64,10 @@
   html {
     font-size: 25%;
   }
+}
 
-  .landing-information {
-    display: none;
-  }
-
-  .landing {
-    margin: 0;
-    height: 45rem;
-  }
-
-  .landing-body {
-    margin-top: -2.8rem;
-  }
-
-  .body-buttons {
-    display: none;
-  }
-
-  .body-title {
-    font-size: 6rem;
-  }
-
-  .body-text {
-    font-size: 5rem;
-    line-height: 3rem;
-  }
-
-  .company-info-text {
-    /* line-height: 3rem; */
-  }
-
-  .landing-navbar {
-    height: 5rem;
-  }
-
-  .nav-logo {
-    width: 14rem;
-    height: 8rem;
-
-    margin-top: 2.5rem;
-  }
-
-  .logo-image {
-    width: 80%;
-    height: 80%;
-  }
-
-  .nav-link:link,
-  .nav-link:visited {
-    font-weight: 500;
-  }
-
-  .body-left {
-    width: 70rem;
-    padding-left: 3.5vw;
-    margin-top: -20rem;
-  }
-
-  .body-right {
-    display: none;
+@media (max-width: 460px) {
+  html {
+    font-size: 18.75%;
   }
 }
