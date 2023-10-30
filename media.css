@@ -64,6 +64,26 @@
   html {
     font-size: 25%;
   }
+
+  .landing-information {
+    display: none;
+  }
+
+  .landing {
+    margin: 0;
+  }
+
+  .body-right {
+    display: none;
+  }
+
+  .body-text {
+    line-height: 0;
+  }
+
+  .company-info-text {
+    line-height: 0;
+  }
 }
 
 /*
