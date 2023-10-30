@@ -84,6 +84,27 @@
   .company-info-text {
     line-height: 0;
   }
+
+  .landing-navbar {
+    height: 5rem;
+  }
+
+  .nav-logo {
+    width: 14rem;
+    height: 8rem;
+
+    margin-top: 2.5rem;
+  }
+
+  .logo-image {
+    width: 80%;
+    height: 80%;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-weight: 500;
+  }
 }
 
 /*
