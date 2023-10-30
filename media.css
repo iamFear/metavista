@@ -78,11 +78,11 @@
   }
 
   .body-text {
-    line-height: 0;
+    line-height: 2rem;
   }
 
   .company-info-text {
-    line-height: 0;
+    line-height: 2rem;
   }
 
   .landing-navbar {
