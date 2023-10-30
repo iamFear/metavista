@@ -83,32 +83,20 @@
   }
 
   .body-title {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   .body-text {
-    font-size: 3.5rem;
-    line-height: 1rem;
+    font-size: 4.5rem;
+    line-height: 3rem;
   }
 
   .company-info-text {
-    line-height: 1rem;
+    /* line-height: 3rem; */
   }
 
   .landing-navbar {
-    height: 5rem;
-  }
-
-  .nav-logo {
-    width: 14rem;
-    height: 8rem;
-
-    margin-top: 2.5rem;
-  }
-
-  .logo-image {
-    width: 80%;
-    height: 80%;
+    height: 6.5rem;
   }
 
   .nav-link:link,
@@ -117,36 +105,11 @@
   }
 
   .body-left {
-    width: 70rem;
+    width: 90rem;
+    padding: 2vw;
   }
 
   .body-right {
-    width: 40%;
-  }
-
-  .logo-body {
-    width: 30%;
-    height: 30%;
-
-    padding-bottom: 1rem;
-  }
-
-  .logo-text-big {
-    font-size: 3rem;
-    letter-spacing: 3px;
-  }
-
-  .logo-text-small {
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 500;
+    display: none;
   }
 }
-
-/*
-@media (max-width: 460px) {
-  html {
-    font-size: 18.75%;
-  }
-} */
