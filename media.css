@@ -44,6 +44,10 @@
   .body-text {
     line-height: 2.5rem;
   }
+
+  .members-card {
+    height: 15rem;
+  }
 }
 
 @media (max-width: 690px) {
