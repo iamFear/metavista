@@ -1,5 +1,73 @@
-@media (max-width: 500px) {
+@media (max-width: 1152px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .members-card {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  html {
+    font-size: 50%;
+  }
+
+  .company {
+    height: 60rem;
+  }
+
   .landing {
-    background-color: #000;
+    height: 76rem;
+  }
+
+  .landing-body {
+    height: 64rem;
+  }
+}
+
+@media (max-width: 920px) {
+  html {
+    font-size: 47.75%;
+  }
+}
+
+@media (max-width: 880px) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .landing-information {
+    height: 5.3rem;
+  }
+
+  .body-text {
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 690px) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .body-text {
+    letter-spacing: 1px;
+  }
+
+  .landing-information {
+    margin-top: -5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 25%;
+  }
+
+@media (max-width: 460px)
+{
+  html {
+    font-size: 18.75%;
   }
 }

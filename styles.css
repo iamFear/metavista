@@ -28,9 +28,9 @@ html {
 /* Landing Page */
 
 .landing {
-  height: 95vh;
+  height: 80rem;
   width: 100vw;
-  margin-top: 5vh;
+  margin-top: 5rem;
   /* position: fixed; */
   background-color: #fafafa;
   /* background-image: url(/media/logo-temp.jpeg);
@@ -43,9 +43,9 @@ html {
   position: fixed;
   background-color: #dc2626;
   width: 100vw;
-  height: 5vh;
+  height: 5rem;
   padding: 0 2rem 0 2rem;
-  margin-top: -5vh;
+  margin-top: -5rem;
 
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ html {
 
 .landing-navbar {
   width: 100vw;
-  height: 10vh;
+  height: 10rem;
   background-color: #1e40af;
 
   display: flex;
@@ -149,7 +149,7 @@ html {
 }
 
 .landing-body {
-  height: 80vh;
+  height: 65rem;
 
   display: flex;
   justify-content: space-between;
@@ -251,14 +251,14 @@ html {
 /* PRODUCTS AND SERVICES */
 .products {
   width: 100vw;
-  height: 100vh;
+  height: 80rem;
   background-color: hsla(226, 71%, 40%, 0.95);
 }
 
 /* WHO WE ARE ? */
 .company {
   width: 100vw;
-  height: 100vh;
+  height: 80rem;
   background-color: #fafafa;
 
   display: flex;
@@ -292,7 +292,7 @@ html {
 .members-card {
   background-color: #1e40af;
   width: 35vw;
-  height: 25vh;
+  height: 20rem;
   border-radius: 15px;
 
   transition: all 0.5s;
@@ -413,7 +413,7 @@ html {
 /* Our services */
 
 .services {
-  height: 105vh;
+  height: 90rem;
   width: 100vw;
   background-color: #1e40af;
 
