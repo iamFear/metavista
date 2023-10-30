@@ -119,6 +119,7 @@
   .body-left {
     width: 70rem;
     padding-left: 3.5vw;
+    margin-top: -3rem;
   }
 
   .body-right {
