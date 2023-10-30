@@ -87,7 +87,7 @@
   }
 
   .body-text {
-    font-size: 4.5rem;
+    font-size: 5rem;
     line-height: 3rem;
   }
 
@@ -96,7 +96,19 @@
   }
 
   .landing-navbar {
-    height: 6.5rem;
+    height: 5rem;
+  }
+
+  .nav-logo {
+    width: 14rem;
+    height: 8rem;
+
+    margin-top: 2.5rem;
+  }
+
+  .logo-image {
+    width: 80%;
+    height: 80%;
   }
 
   .nav-link:link,
@@ -105,8 +117,8 @@
   }
 
   .body-left {
-    width: 90rem;
-    padding: 2vw;
+    width: 70rem;
+    padding-left: 3.5vw;
   }
 
   .body-right {
