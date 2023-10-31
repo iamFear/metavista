@@ -1,6 +1,6 @@
-@media (max-width: 1152px) {
+@media screen and (max-width: 1152px) {
   html {
-    font-size: 56.25%;
+    font-size: 9px;
   }
 
   .members-card {
@@ -8,9 +8,9 @@
   }
 }
 
-@media (max-width: 1040px) {
+@media screen and (max-width: 1040px) {
   html {
-    font-size: 50%;
+    font-size: 8px;
   }
 
   .company {
@@ -26,15 +26,15 @@
   }
 }
 
-@media (max-width: 920px) {
+@media screen and (max-width: 920px) {
   html {
-    font-size: 47.75%;
+    font-size: 7px;
   }
 }
 
-@media (max-width: 880px) {
+@media screen and (max-width: 880px) {
   html {
-    font-size: 37.5%;
+    font-size: 6px;
   }
 
   .landing-information {
@@ -46,9 +46,9 @@
   }
 }
 
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
   html {
-    font-size: 31.25%;
+    font-size: 5px;
   }
 
   .body-text {
@@ -60,14 +60,14 @@
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   html {
-    font-size: 25%;
+    font-size: 4px;
   }
 }
 
-@media (max-width: 460px) {
+@media screen and (max-width: 460px) {
   html {
-    font-size: 18.75%;
+    font-size: 3px;
   }
 }
